@@ -31,8 +31,12 @@ function DualInfoblock({ heading, imgsrc }) {
             </p>
           </div>
           <div className="col-4">
-            <div class="card bg-dark">
-              <img src={imgsrc} class="card-img-top" alt="Image goes here" />
+            <div className="card bg-dark">
+              <img
+                src={imgsrc}
+                className="card-img-top"
+                alt="Image goes here"
+              />
               <div className="card-body">
                 <h5 className="card-title text-white">Just click photos</h5>
                 <p className="card-text text-white">
